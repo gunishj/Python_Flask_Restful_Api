@@ -1,0 +1,26 @@
+Resources
+
+Register a new  user /register post username pw 200 ok,301 invalid username
+
+Detect similarity of docs -1	/detect	post username pw text1 text2, 200 ok return similarity
+																	301 invalid username
+																	302 wrong password
+																	303 insufficient tokens
+
+Refill admin to be able to increase the quota of
+tokens for one of the users /refill post username admin_pw refill amount 200 ok
+																		301 invalid username
+																		304 invalid admin_pw
+
+we are going to use spacy nlp library to use it 
+api is very simple to use comparing the two string using spacy
+
+we need python api as 
+
+https://github.com/explosion/spacy-models/releases/download/en_core_web_md-2.2.5/en_core_web_md-2.2.5.tar.gz
+
+
+
+
+
+
